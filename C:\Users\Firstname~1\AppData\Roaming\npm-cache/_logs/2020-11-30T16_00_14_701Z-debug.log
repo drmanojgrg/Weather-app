@@ -1,0 +1,15 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'start' ]
+2 info using npm@6.14.8
+3 info using node@v12.19.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle web-server@1.0.0~prestart: web-server@1.0.0
+6 info lifecycle web-server@1.0.0~start: web-server@1.0.0
+7 verbose lifecycle web-server@1.0.0~start: unsafe-perm in lifecycle true
+8 verbose lifecycle web-server@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/yayra/Desktop/node-course/web-server/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+9 verbose lifecycle web-server@1.0.0~start: CWD: /Users/yayra/Desktop/node-course/web-server
+10 silly lifecycle web-server@1.0.0~start: Args: [ '-c', 'node src/app.js' ]
+11 timing npm Completed in 311933ms
+12 error cb() never called!
+13 error This is an error with npm itself. Please report this error at:
+14 error <https://npm.community>

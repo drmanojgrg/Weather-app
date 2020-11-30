@@ -13,7 +13,7 @@ myform.addEventListener('submit',(e)=>{
 
    messageTwo.textContent = "From Javascript"
 
-   fetch("http://localhost:3000/weather?address="+location)
+   fetch("/weather?address="+location)
 .then((data)=>data.json())
 .then((data)=>{
     if (data.error){

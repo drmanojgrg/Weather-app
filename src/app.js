@@ -2,8 +2,9 @@ const path=require("path")
 const express= require("express"); 
 const hbs=require("hbs");
 const request = require("request");
-const app=express()/// create a new express entity app.get/app/set
 
+const app=express()/// create a new express entity app.get/app/set
+const port= process.env.PORT || 3000;
 
 //define paths for express config
 const publicdirectorypath=path.join(__dirname,'../public')// ccs img//client javascript fe
@@ -101,6 +102,6 @@ app.get("*",(req, res) =>{
 
 // final listen command
 
-app.listen(3000,()=>{
- console.log("server did start correctly in port 3000")    
+app.listen(port,()=>{
+ console.log("server did start correctly in"+ port)    
 })
