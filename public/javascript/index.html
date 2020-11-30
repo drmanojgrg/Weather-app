@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Webpage</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/javascript/app.js"></script>
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <img src="/img/traveroo.jpg" alt="Traveroo logo">
+        <p> Use this site to get your weather</p>
+
+        <form id="myForm" action="">
+            <input placeholder="location">
+            <button>Search</button>
+        </form>
+
+
+    </div>
+
+    {{>footer}}
+
+    <script src="app.js"></script>
+</body>
+
+</html>
